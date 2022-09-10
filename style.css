@@ -1,0 +1,59 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.one{
+  color:#A2D9CE;
+  height:50px;
+  width:500px;
+  border:5px #F1948A solid;
+  background-color:#EBDEF0;
+  margin-left:30%;
+}
+
+.two{
+  color:green;
+}
+
+.three{
+  color:green;
+}
+
+body{
+  background:#D1F2EB;
+}
+
+.four{
+  color:#5D6D7E;
+}
+
+.five{
+  color:#5D6D7E
+}
+  
+.six{
+  background-color:#D2B4DE;
+}
+
+.seven{
+  font-family:Gabriola;
+  font-size:30px;
+  height:500px;
+  width:1250px;
+  border:5px #F1948A solid;
+  background-color:#EBDEF0;
+}
