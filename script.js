@@ -87,3 +87,27 @@ document.getElementById('button').addEventListener('click', (event) => {
   element_list.appendChild(new_li);
 
 });
+
+var image;
+
+
+image = [''];
+
+let element_image = document.getElementById('image');
+image.push(image[0]);
+element_image.setAttribute("src", image[0]);
+
+
+document.getElementById('previous').addEventListener('click', (event) => {
+  let element_image2 = document.getElementById('image');
+  image.push(image[0]);
+  element_image2.setAttribute("src", image[0]);
+
+});
+
+document.getElementById('next').addEventListener('click', (event) => {
+  let element_image3 = document.getElementById('image');
+  image.push(image[0]);
+  element_image3.setAttribute("src", image.shift());
+
+});
